@@ -1,14 +1,10 @@
-# Ignoră fișiere temporare
 *.log
 *.tmp
-
-# Ignoră node_modules (pentru proiecte Node.js)
+.env
 node_modules/
 
-# Ignoră fișiere generate
 dist/
 build/
 
-# Ignoră fișiere de sistem
 .DS_Store
 Thumbs.db
