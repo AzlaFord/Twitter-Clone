@@ -8,6 +8,8 @@ const app = express();
 
 app.use("/api/auth",authRoutes);
 
+app.use(express.json())
+
 console.log(process.env.MONGO_URI)
 
 app.listen(PORT,()=>{
