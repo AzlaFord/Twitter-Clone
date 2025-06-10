@@ -59,6 +59,6 @@ export const login = async (req,res) =>{
 
 export const logout = async (req,res) =>{
     res.json({
-        data: "you hit the logout endpoint"
+        data: "you hit the logout endpoint bye"
     })
 }
